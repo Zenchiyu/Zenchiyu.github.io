@@ -83,7 +83,8 @@ author:
   name             : "Stéphane Liem NGUYEN"
   avatar           : "profile.png"
   bio              : "MSc student in Computer Science at University of Geneva"
-  location         : "https://goo.gl/maps/e3AiFL65i1Z6YXQS7" # "Location"
+  # location         :  "Location"
+  googlemaps       : "https://goo.gl/maps/e3AiFL65i1Z6YXQS7"
   employer         :
   pubmed           : 
   googlescholar    :  # "http://yourfullgooglescholarurl.com"
