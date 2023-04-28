@@ -13,6 +13,6 @@ redirect_from:
 {% include base_path %}
 
 <!-- Education -->
-<div class=mysection">
+<div class="mysection">
          MSc student in Computer Science at University of Geneva            
 </div>
