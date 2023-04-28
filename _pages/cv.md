@@ -11,22 +11,27 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
+* MSc in Computer Science (Currently pursuing) at University of Geneva, Sep 2022 – present
+* BSc degree in Computer Science at University of Geneva, Sep 2018 – Jul 2021
+* Maturité Gymnasiale at Collège Claparède, Aug 2014 – Jul 2018
+ 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jan 2022 – May 2022: Radio explorer soldier
+  * Swiss Armed Forces
+  * Recruit School (ER) in Radio Explorer
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Sep 2021 – Dec 2021: Auxiliaire de recherche et d’enseignement
+  * University of Geneva
+  * Distributed and concurrent systems (using Java), Formal languages.
+  * Audience: 3rd and 1st year BSc of Computer Science respectively.
+ 
+* Feb 2021 – May 2021: Auxiliaire de recherche et d’enseignement (Undergraduate TA)
+  * University of Geneva
+  * Programmation of systems (using assembly)
+  * Audience: 2nd year BSc of Computer Science
+
+<!---
 Skills
 ======
 * Skill 1
@@ -56,4 +61,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams--->
