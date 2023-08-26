@@ -1,0 +1,20 @@
+---
+title: "Learning Journey"
+description: |
+  Welcome to my website, curious fellow ! Are you read to join me on my journey ?
+  
+  I am Stéphane and this is my learning journey.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+

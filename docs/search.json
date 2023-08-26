@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Sharing or teaching what I learn will not only help with my bad memory but also help you.\n\nI hope my blog posts will help you, either by refreshing your memory or making you discover something new.",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-08-26T20:53:55+02:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Learning Journey",
+      "description": "Welcome to my website, curious fellow ! Are you read to join me on my journey ?\n\nI am Stéphane and this is my learning journey.\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-08-26T20:53:56+02:00"
+    }
+  ],
+  "collections": []
+}

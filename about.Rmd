@@ -1,0 +1,12 @@
+---
+title: "About this site"
+description: |
+   Sharing or teaching what I learn will not only help with my bad memory but also help you.
+   
+   I hope my blog posts will help you, either by refreshing your memory or making you discover something new.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
