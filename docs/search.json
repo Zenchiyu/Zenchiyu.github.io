@@ -6,22 +6,22 @@
       "description": "Sharing or teaching what I learn will not only help with my bad memory but also help you.\n\nI hope my blog posts will help you, either by refreshing your memory or making you discover something new.",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-08-26T23:31:25+02:00"
+      "last_modified": "2023-08-26T23:38:42+02:00"
     },
     {
       "path": "blog.html",
       "title": "Blog posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-08-26T23:32:43+02:00"
+      "last_modified": "2023-08-26T23:38:43+02:00"
     },
     {
       "path": "index.html",
       "title": "Learning Journey",
-      "description": "Welcome to my website, curious fellow ! Are you read to join me on my journey ?\n\nI am Stéphane and this is my learning journey.\n",
+      "description": "Welcome to my website, curious fellow ! Are you ready to join me on my journey ?\n\nI am Stéphane and this is my learning journey.\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-08-26T23:31:26+02:00"
+      "last_modified": "2023-08-26T23:38:43+02:00"
     }
   ],
   "collections": ["posts/posts.json"]

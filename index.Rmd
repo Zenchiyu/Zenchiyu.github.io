@@ -1,7 +1,7 @@
 ---
 title: "Learning Journey"
 description: |
-  Welcome to my website, curious fellow ! Are you read to join me on my journey ?
+  Welcome to my website, curious fellow ! Are you ready to join me on my journey ?
   
   I am Stéphane and this is my learning journey.
 site: distill::distill_website
