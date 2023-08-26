@@ -1,0 +1,31 @@
+---
+title: "Who Am I"
+description: |
+  Introduction
+author:
+  - name: Zenchiyu
+date: 2023-08-26
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Hi,
+
+I'm Stéphane Liem NGUYEN and I'm a computer science student at University of Geneva.
+
+My academic interests revolve around Machine Learning, more specifically Reinforcement Learning.
+
+More generally, I'm interested in anything related to decision-making.
+
+---
+This website uses Distill, which is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+
