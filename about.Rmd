@@ -14,8 +14,6 @@ More generally, I'm interested in anything related to decision-making.
 
 ---
 
-
-
 This website uses Distill, which is a publication format for scientific and technical writing, native to the web.
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.

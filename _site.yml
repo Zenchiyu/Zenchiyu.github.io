@@ -3,6 +3,7 @@ title: "Learning Journey"
 description: |
   Learning Journey
 output_dir: "docs"
+theme: theme.css
 navbar:
   right:
     - text: "Home"
