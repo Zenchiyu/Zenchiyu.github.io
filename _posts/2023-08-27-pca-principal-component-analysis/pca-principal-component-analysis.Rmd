@@ -1,5 +1,5 @@
 ---
-title: "PCA: Principal Component Analysis"
+title: "PCA: Principal Component Analysis (Draft)"
 description: |
   Principal Component Analysis, for short PCA, is an *unsupervised learning* method and can be used, depending on specific circumstances, as a *dimensionality reduction technique*.
   
@@ -14,7 +14,7 @@ output:
   distill::distill_article:
     toc: true
     self_contained: false
-draft: true
+# draft: true
 ---
 
 
