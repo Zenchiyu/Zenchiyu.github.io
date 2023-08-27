@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-**Motto of this website**
+### Motto of this website
 
 <span style="color:gray">*Sharing or teaching what I learn will not only help with my bad memory but also help you.*</span>
    
@@ -27,7 +27,7 @@ I hope my blog posts will help you, either by refreshing your memory or making y
 
 ---
 
-**About Me**
+### About Me
 
 <!---  <img src="images/profile.jpeg" alt="Profile Picture" class="profile-picture"> --->
 

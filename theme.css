@@ -90,3 +90,8 @@ see:
 p.small {
   line-height: 1.8;
 }
+
+/*https://stackoverflow.com/questions/71623548/how-to-change-the-colours-for-the-list-of-toc-contents-in-a-distill-article-in-r*/
+.d-contents a {
+  color:     #00aaff;
+}
