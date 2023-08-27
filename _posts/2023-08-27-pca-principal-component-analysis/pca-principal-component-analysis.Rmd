@@ -3,13 +3,15 @@ title: "PCA: Principal Component Analysis (Draft)"
 description: |
   Principal Component Analysis, for short PCA, is an *unsupervised learning* method and can be used, depending on specific circumstances, as a *dimensionality reduction technique*.
   
-  However, PCA per say is an exact decomposition method. One can summarize PCA as the application of the *eigenvalue decomposition* (EVD) of the *data covariance matrix*.
+  However, PCA per say is an exact decomposition method. One can summarize PCA as the application of the *eigenvalue decomposition* (EVD) on the *data covariance matrix*.
 author:
   - first_name: Stéphane Liem
     last_name: Nguyen
     affiliation: University of Geneva
     affiliation_url: https://www.unige.ch/dinfo/
 date: 2023-08-27
+categories:
+    - unsupervised learning
 output:
   distill::distill_article:
     toc: true
@@ -24,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Introduction
 
-> Principal Component Analysis, for short PCA, is an *unsupervised learning* method and can be used, depending on specific circumstances, as a *dimensionality reduction technique*. However, PCA per say is an exact decomposition method. One can summarize PCA as the application of the *eigenvalue decomposition* (EVD) of the *data covariance matrix*.
+> Principal Component Analysis, for short PCA, is an *unsupervised learning* method and can be used, depending on specific circumstances, as a *dimensionality reduction technique*. However, PCA per say is an exact decomposition method. One can summarize PCA as the application of the *eigenvalue decomposition* (EVD) on the *data covariance matrix*.
 
 
 In this article, you will go through an explanation of what is PCA, both intuitively and slightly formalized using some linear algebra.
