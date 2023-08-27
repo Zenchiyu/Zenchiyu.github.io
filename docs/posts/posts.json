@@ -5,15 +5,15 @@
     "description": "Introduction",
     "author": [
       {
-        "name": "Zenchiyu",
+        "name": "Stéphane Liem Nguyen",
         "url": {}
       }
     ],
     "date": "2023-08-26",
     "categories": [],
-    "contents": "\r\nHi,\r\nI’m Stéphane Liem NGUYEN and I’m a computer science student at University of Geneva.\r\nMy academic interests revolve around Machine Learning, more specifically Reinforcement Learning.\r\nMore generally, I’m interested in anything related to decision-making.\r\nThis website uses Distill, which is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nHi,\r\nI’m Stéphane Liem NGUYEN and I’m a computer science student at University of Geneva.\r\nMy academic interests revolve around Machine Learning, more specifically Reinforcement Learning.\r\nMore generally, I’m interested in anything related to decision-making.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-08-26T23:37:05+02:00",
-    "input_file": {}
+    "last_modified": "2023-08-27T10:22:12+02:00",
+    "input_file": "who-am-i.knit.md"
   }
 ]

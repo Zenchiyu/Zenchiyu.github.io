@@ -1,9 +1,25 @@
 ---
-title: "About this site"
+title: "About"
 description: |
    Sharing or teaching what I learn will not only help with my bad memory but also help you.
    
    I hope my blog posts will help you, either by refreshing your memory or making you discover something new.
+---
+
+I'm Stéphane Liem NGUYEN and I'm a computer science student at University of Geneva.
+
+My academic interests revolve around Machine Learning, more specifically Reinforcement Learning.
+
+More generally, I'm interested in anything related to decision-making.
+
+---
+
+
+
+This website uses Distill, which is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
 ---
 
 ```{r setup, include=FALSE}

@@ -3,7 +3,10 @@ title: "Who Am I"
 description: |
   Introduction
 author:
-  - name: Zenchiyu
+  - first_name: Stéphane Liem
+    last_name: Nguyen
+    affiliation: University of Geneva
+    affiliation_url: https://www.unige.ch/dinfo/
 date: 2023-08-26
 output:
   distill::distill_article:
@@ -13,6 +16,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+# https://rstudio.github.io/distill/
 ```
 
 Hi,
@@ -24,8 +28,5 @@ My academic interests revolve around Machine Learning, more specifically Reinfor
 More generally, I'm interested in anything related to decision-making.
 
 ---
-This website uses Distill, which is a publication format for scientific and technical writing, native to the web.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
 
 
