@@ -77,7 +77,7 @@ University Email: <a href="mailto:stephane.nguyen@etu.unige.ch">first.last@etu.u
 <td>Faculty of Science, University of Geneva
 
 <p class="small">
-- Average grade of first year : 5.85/6
+- Average grade of first year: 5.85/6
 - Relevant coursework: metaheuristics for optimization, data science, information system
 security, information retrieval, multimedia security and privacy, modelisation and simulation of natural phenomena, introduction to computational game theory (part of selected
 chapters), advanced formal tools, introduction to computational finance</p></td>
@@ -92,7 +92,7 @@ chapters), advanced formal tools, introduction to computational finance</p></td>
 <td>Faculty of Science, University of Geneva
 
 <p class="small">
-- Average grade of first year : 5.55/6
+- Average grade: 5.55/6
 </p></td>
 </tr>
 
@@ -107,8 +107,8 @@ chapters), advanced formal tools, introduction to computational finance</p></td>
 
 <p class="small">
 <ul>
-<li>Specific Option : Physics and Application of Mathematics</li>
-<li>Complementary Option : Informatics: made two games using PyGame:
+<li>Specific Option: Physics and Application of Mathematics</li>
+<li>Complementary Option: Informatics: made two games using PyGame:
   <ul>
   <li>space invaders-like but has to avoid obstacles instead of shooting at them.</li>
   <li>street-fighter-like, two players on same computer.</li>
