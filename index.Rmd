@@ -48,13 +48,13 @@ More generally, I'm interested in anything related to decision-making.
 **Stéphane Liem Nguyen**<br>
 CS student at University of Geneva<br>
 <!---Email--->
-  <a href="mailto:stephane13ste@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  <a href="mailto:stephane13ste@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a>&nbsp;
 <!---Linkedin--->
-  <a href="https://www.linkedin.com/in/stéphane-liem-nguyen/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/stéphane-liem-nguyen/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>&nbsp;
 <!---GitHub--->
-  <a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+  <a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>&nbsp;
 <!---ResearchGate--->
-  <a href="https://www.researchgate.net/profile/Stephane_Nguyen?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJfZGlyZWN0In19" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/Stephane_Nguyen?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJfZGlyZWN0In19" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>&nbsp;
 </p>
 </td>
 <td>

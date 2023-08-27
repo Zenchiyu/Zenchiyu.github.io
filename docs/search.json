@@ -5,22 +5,22 @@
       "title": "About",
       "author": [],
       "contents": "\r\nI’m Stéphane Liem NGUYEN and I’m a computer science student at University of Geneva.\r\nMy academic interests revolve around Machine Learning, more specifically Reinforcement Learning.\r\nMore generally, I’m interested in anything related to decision-making.\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-08-27T15:55:41+02:00"
+      "last_modified": "2023-08-27T16:00:53+02:00"
     },
     {
       "path": "blog.html",
       "title": "Blog posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-08-27T15:55:41+02:00"
+      "last_modified": "2023-08-27T16:00:54+02:00"
     },
     {
       "path": "index.html",
       "title": "Learning Journey",
       "description": "Welcome to my website, curious fellow ! Are you ready to join me on my journey ?\n\nI am Stéphane and this is my learning journey.\n \n",
       "author": [],
-      "contents": "\r\nMotto of this website\r\nSharing or teaching what I learn will not only help with my bad memory but also help you.\r\nI hope my blog posts will help you, either by refreshing your memory or making you discover something new.\r\nAbout Me\r\n\r\n\r\n\r\n\r\nMy academic interests revolve around Machine Learning, more specifically Reinforcement Learning.\r\nMore generally, I’m interested in anything related to decision-making.\r\n\r\n\r\n\r\nStéphane Liem Nguyen\r\nCS student at University of Geneva\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nUniversity Email: first.last@etu.unige.ch\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-08-27T15:55:42+02:00"
+      "contents": "\r\nMotto of this website\r\nSharing or teaching what I learn will not only help with my bad memory but also help you.\r\nI hope my blog posts will help you, either by refreshing your memory or making you discover something new.\r\nAbout Me\r\n\r\n\r\n\r\n\r\nMy academic interests revolve around Machine Learning, more specifically Reinforcement Learning.\r\nMore generally, I’m interested in anything related to decision-making.\r\n\r\n\r\n\r\nStéphane Liem Nguyen\r\nCS student at University of Geneva \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n\r\n\r\nUniversity Email: first.last@etu.unige.ch\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-08-27T16:00:55+02:00"
     }
   ],
   "collections": ["posts/posts.json"]
