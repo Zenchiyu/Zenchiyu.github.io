@@ -76,3 +76,10 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+/*Fix the footer at the bottom of the webpage
+see: https://github.com/rstudio/distill/issues/464
+*/
+.distill-site-footer {
+    position: fixed;
+    bottom: 0;
+}

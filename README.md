@@ -7,3 +7,4 @@ which we could interact with the different graphs.
 - https://distillery.rbind.io/posts/2021-03-21-create-a-github-website-with-distill-in-less-than-30-minutes/
 - https://rstudio.github.io/distill/
 - https://distill.pub/guide/
+- https://rstudio.github.io/distill/interactivity.html
