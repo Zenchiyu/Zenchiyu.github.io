@@ -34,13 +34,12 @@ I hope my blog posts will help you, either by refreshing your memory or making y
 <table>
 <tr>
 <td>
-<img align="left" src="images/profile.jpeg" width="200">
+<img align="left" src="images/profile-circle.png" width="200">
 </td>
 <td>
 My academic interests revolve around Machine Learning, more specifically Reinforcement Learning.
 
 More generally, I'm interested in anything related to decision-making.
-
 </td>
 </tr>
 <tr>
@@ -48,16 +47,22 @@ More generally, I'm interested in anything related to decision-making.
 <p class="small">
 **Stéphane Liem Nguyen**<br>
 CS student at University of Geneva<br>
+<!---Email--->
+  <a href="mailto:stephane13ste@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+<!---Linkedin--->
+  <a href="https://www.linkedin.com/in/stéphane-liem-nguyen/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+<!---GitHub--->
   <a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-  <a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+<!---ResearchGate--->
+  <a href="https://www.researchgate.net/profile/Stephane_Nguyen?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJfZGlyZWN0In19" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
 </p>
-
-
 </td>
 <td>
+University Email: <a href="mailto:stephane.nguyen@etu.unige.ch">first.last@etu.unige.ch</a>
 </td>
 </tr>
 </table>
+
 
 
 
