@@ -2228,10 +2228,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   /*Fix the footer at the bottom of the webpage
-  see: https://github.com/rstudio/distill/issues/464
+  see:
+  - https://github.com/rstudio/distill/issues/464
+  - https://developer.mozilla.org/fr/docs/Web/CSS/overflow
   */
   .distill-site-footer {
       position: fixed;
+      overflow: hidden;
       bottom: 0;
   }</style>
   <style type="text/css">
