@@ -4,6 +4,7 @@ description: |
   Welcome to my website, curious fellow ! Are you ready to join me on my journey ?
   
   I am Stéphane and this is my learning journey.
+   
 site: distill::distill_website
 ---
 
@@ -18,3 +19,47 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+**Motto of this website**
+
+<span style="color:gray">*Sharing or teaching what I learn will not only help with my bad memory but also help you.*</span>
+   
+I hope my blog posts will help you, either by refreshing your memory or making you discover something new.
+
+---
+
+**About Me**
+
+<!---  <img src="images/profile.jpeg" alt="Profile Picture" class="profile-picture"> --->
+
+<table>
+<tr>
+<td>
+<img align="left" src="images/profile.jpeg" width="200">
+</td>
+<td>
+My academic interests revolve around Machine Learning, more specifically Reinforcement Learning.
+
+More generally, I'm interested in anything related to decision-making.
+
+</td>
+</tr>
+<tr>
+<td>
+<p class="small">
+**Stéphane Liem Nguyen**<br>
+CS student at University of Geneva<br>
+  <a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+  <a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+</p>
+
+
+</td>
+<td>
+</td>
+</tr>
+</table>
+
+
+
+
+---

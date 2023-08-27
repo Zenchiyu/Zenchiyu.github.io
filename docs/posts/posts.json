@@ -13,9 +13,9 @@
     "categories": [
       "intro"
     ],
-    "contents": "\r\nHi,\r\nI’m Stéphane Liem NGUYEN and I’m a computer science student at University of Geneva.\r\nMy academic interests revolve around Machine Learning, more specifically Reinforcement Learning.\r\nMore generally, I’m interested in anything related to decision-making.\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\nContents\r\nCurrent Day\r\nDay 0\r\n\r\nCurrent Day\r\nI’m Stéphane and I’m a computer science student at University of Geneva.\r\nMy academic interests revolve around Machine Learning, more specifically Reinforcement Learning.\r\nMore generally, I’m interested in anything related to decision-making.\r\nBut what ignited that spark of interest ?\r\nDay 0\r\nArtificial Intelligence used to be a foreign concept to me, outside of my interest radar. However, an event at my high school showcasing different scientific disciplines changed that.\r\nThis is in this event, at Collège Claparède, that I discovered the concept of Neural Networks. It was explained to us as a black box, taking an image of a dog and spitting out the class label saying whether it’s a dog or a cat, which led to some frustration.\r\nWhy did he not explain how to construct that black box ? How to construct it ?\r\nThese questions led to the start of my journey.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-08-27T13:57:05+02:00",
+    "last_modified": "2023-08-27T14:24:49+02:00",
     "input_file": {}
   }
 ]

@@ -110,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Learning Journey"]},{"type":"character","attributes":{},"value":["Welcome to my website, curious fellow ! Are you ready to join me on my journey ?\n\nI am Stéphane and this is my learning journey.\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Learning Journey"]},{"type":"character","attributes":{},"value":["Welcome to my website, curious fellow ! Are you ready to join me on my journey ?\n\nI am Stéphane and this is my learning journey.\n \n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2238,6 +2238,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       position: fixed;
       overflow: hidden;
       bottom: 0;
+  }
+
+  p.small {
+    line-height: 1.8;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2428,7 +2432,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="blog.html">Blog</a>
-<a href="about.html">About</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2447,6 +2450,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<p><strong>Motto of this website</strong></p>
+<p><span style="color:gray"><em>Sharing or teaching what I learn will not only help with my bad memory but also help you.</em></span></p>
+<p>I hope my blog posts will help you, either by refreshing your memory or making you discover something new.</p>
+<hr />
+<p><strong>About Me</strong></p>
+<!---  <img src="images/profile.jpeg" alt="Profile Picture" class="profile-picture"> --->
+<table>
+<tr>
+<td>
+<img align="left" src="images/profile.jpeg" width="200">
+</td>
+<td>
+<p>My academic interests revolve around Machine Learning, more specifically Reinforcement Learning.</p>
+<p>More generally, I’m interested in anything related to decision-making.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="small">
+<strong>Stéphane Liem Nguyen</strong><br>
+CS student at University of Geneva<br>
+<a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+<a href="https://github.com/Zenchiyu/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+</p>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<hr />
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

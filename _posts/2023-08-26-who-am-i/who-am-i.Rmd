@@ -22,14 +22,25 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/
 ```
+## Current Day
 
-Hi,
-
-I'm Stéphane Liem NGUYEN and I'm a computer science student at University of Geneva.
+I'm Stéphane and I'm a computer science student at University of Geneva.
 
 My academic interests revolve around Machine Learning, more specifically Reinforcement Learning.
 
 More generally, I'm interested in anything related to decision-making.
+
+But what ignited that spark of interest ?
+
+## Day 0
+
+Artificial Intelligence used to be a foreign concept to me, outside of my interest radar. However, an event at my high school showcasing different scientific disciplines changed that.
+
+This is in this event, at Collège Claparède, that I discovered the concept of Neural Networks. It was explained to us as a *black box*, taking an image of a dog and spitting out the class label saying whether it's a dog or a cat, which led to some frustration.
+
+*Why did he not explain how to construct that black box ? How to construct it ?*
+
+These questions led to the start of my journey.
 
 ---
 
