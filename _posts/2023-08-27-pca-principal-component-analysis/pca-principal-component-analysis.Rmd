@@ -1,9 +1,7 @@
 ---
 title: "PCA: Principal Component Analysis (Draft)"
 description: |
-  Principal Component Analysis, for short PCA, is an *unsupervised learning* method and can be used, depending on specific circumstances, as a *dimensionality reduction technique*.
-  
-  However, PCA per say is an exact decomposition method. One can summarize PCA as the application of the *eigenvalue decomposition* (EVD) on the *data covariance matrix*.
+  What is Principal Component Analysis ?
 author:
   - first_name: Stéphane Liem
     last_name: Nguyen
@@ -26,32 +24,33 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Introduction
 
-> Principal Component Analysis, for short PCA, is an *unsupervised learning* method and can be used, depending on specific circumstances, as a *dimensionality reduction technique*. However, PCA per say is an exact decomposition method. One can summarize PCA as the application of the *eigenvalue decomposition* (EVD) on the *data covariance matrix*.
+Principal Component Analysis for short PCA, is an *unsupervised learning* method that can be used, depending on specific circumstances, as a *dimensionality reduction technique*. However, PCA is an exact decomposition method. PCA is the *eigenvalue decomposition* (EVD) of the *data covariance matrix*.
 
-
-In this article, you will go through an explanation of what is PCA, both intuitively and slightly formalized using some linear algebra.
+In this article, you will see an explanation of what PCA is, intuitively and slightly formalized using some linear algebra.
 
 ## Unsupervised Learning
 
-In the field of Machine Learning, there's a sub-field called unsupervised learning.
+The field of Machine Learning includes a sub-field called unsupervised learning.
 
-Unsupervised learning methods are used on non-labeled data, e.g. images of cats and dogs but w/o anything stating which class they belong to. These methods can be used for tasks such as clustering, density estimation, visualization and dimensionality reduction.
+Unsupervised learning methods apply to non-labeled data, e.g. images of cats and dogs deprived of class belonging information. These methods are useable for clustering, density estimation, visualization and dimensionality reduction.
 
 ## Dimensionality reduction
 
 Machine Learning methods can suffer from large dimensions. For instance, images can be composed of millions of pixels.
 
-The *large number of dimensions* can be a burden in terms of computational resources but not only. Intuition from 2 dimensions, 3 dimensions or maybe up to 4 dimensions are hard to extend to thousands of dimensions.
+The *large number of dimensions* not only can be a burden in terms of computational resources, but intuition from 2, 3 or maybe up to 4 dimensions is hard to extend to thousands of dimensions.
 
-A keyword often used in Machine Learning is the <a href="https://en.wikipedia.org/wiki/Curse_of_dimensionality">*Curse of Dimensionality*</a>, we will go more into it in other articles.
+A keyword often used in Machine Learning is the <a href="https://en.wikipedia.org/wiki/Curse_of_dimensionality">*Curse of Dimensionality*</a>, which would require further explanation via future articles.
 
 <!--- to talk about rejection sampling in the future too--->
 
-Therefore, dimensionality reduction techniques can be used to shrink that number of dimensions. However, loss of information can occur ! You can think of it as compressing images and decompressing them. Can you retrieve the original image exactly ? There are lossy and lossless compression techniques and they can have different compression ratios.
+Therefore, shrinking that number of dimensions requires dimensionality reduction techniques. However, loss of information can occur! You can think of it as compressing images and decompressing them. Can you retrieve the original image from a compressed one without any loss? Lossy and lossless compression techniques exist with different compression ratios.
 
-Because loss of information can occur, we need to ensure that the dimensionality reduction technique retains useful information for a downstream task, which could be classification.
+Because loss of information can occur, we need to ensure that the dimensionality reduction technique retains *useful* information for a downstream task, which could be classification.
 
-Note that we've only talked about unsupervised learning but dimensionality reduction technique also exist for supervised learning methods, methods that are applied on labeled data.
+<aside>Usefulness needs a proper definition</aside>
+
+Because classification is a supervised learning task in which we have labeled data, dimensionality reduction techniques are therefore not fully reserved to unsupervised learning methods.
 
 <!--- TODO: create some dataset, plot a 2D graph and project data onto one axis to show the loss of information --->
 
