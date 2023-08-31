@@ -50,7 +50,7 @@ Because loss of information can occur, we need to ensure that the dimensionality
 
 <aside>Usefulness needs a proper definition</aside>
 
-Because classification is a supervised learning task in which we have labeled data, dimensionality reduction techniques are therefore not fully reserved to unsupervised learning methods.
+Because classification is a supervised learning task in which we have labeled data, dimensionality reduction techniques are therefore not fully reserved for unsupervised learning methods.
 
 <!--- TODO: create some dataset, plot a 2D graph and project data onto one axis to show the loss of information --->
 

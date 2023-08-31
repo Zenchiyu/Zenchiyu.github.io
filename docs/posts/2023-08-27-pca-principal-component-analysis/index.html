@@ -2523,14 +2523,14 @@ d-appendix d-footnote-list a.footnote-backlink {
 <h2 id="dimensionality-reduction">Dimensionality reduction</h2>
 <p>Machine Learning methods can suffer from large dimensions. For instance, images can be composed of millions of pixels.</p>
 <p>The <em>large number of dimensions</em> not only can be a burden in terms of computational resources, but intuition from 2, 3 or maybe up to 4 dimensions is hard to extend to thousands of dimensions.</p>
-<p>A keyword often used in Machine Learning is the <a href="https://en.wikipedia.org/wiki/Curse_of_dimensionality"><em>Curse of Dimensionality</em></a>, we will go more into it in other articles.</p>
+<p>A keyword often used in Machine Learning is the <a href="https://en.wikipedia.org/wiki/Curse_of_dimensionality"><em>Curse of Dimensionality</em></a>, which would require further explanation via future articles.</p>
 <!--- to talk about rejection sampling in the future too--->
-<p>Therefore, shrinking that number of dimensions require dimensionality reduction techniques. However, loss of information can occur! You can think of it as compressing images and decompressing them. Can you retrieve the original image from a compressed one without any loss? Lossy and lossless compression techniques exist with different compression ratios.</p>
+<p>Therefore, shrinking that number of dimensions requires dimensionality reduction techniques. However, loss of information can occur! You can think of it as compressing images and decompressing them. Can you retrieve the original image from a compressed one without any loss? Lossy and lossless compression techniques exist with different compression ratios.</p>
 <p>Because loss of information can occur, we need to ensure that the dimensionality reduction technique retains <em>useful</em> information for a downstream task, which could be classification.</p>
 <aside>
 Usefulness needs a proper definition
 </aside>
-<p>Note that we’ve only talked about unsupervised learning but dimensionality reduction techniques also exist for supervised learning methods, methods that are applied to labeled data.</p>
+<p>Because classification is a supervised learning task in which we have labeled data, dimensionality reduction techniques are therefore not fully reserved for unsupervised learning methods.</p>
 <!--- TODO: create some dataset, plot a 2D graph and project data onto one axis to show the loss of information --->
 <h2 id="eigenvalue-decomposition">Eigenvalue Decomposition</h2>
 <h1 id="principal-component-analysis">Principal Component Analysis</h1>
