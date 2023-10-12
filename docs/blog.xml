@@ -7,7 +7,7 @@
     <description>Learning Journey
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>From MLE or MAP to famous loss functions like MSE or Cross Entropy</title>
       <dc:creator>Stéphane Liem Nguyen</dc:creator>
@@ -15,7 +15,7 @@
       <description>Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?</description>
       <category>bayesian inference</category>
       <guid>https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference</guid>
-      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PCA: Principal Component Analysis (Draft)</title>
