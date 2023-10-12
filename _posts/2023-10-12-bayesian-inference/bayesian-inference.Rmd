@@ -1,0 +1,166 @@
+---
+title: "From MLE or MAP to famous loss functions like MSE or Cross Entropy"
+description: |
+  Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?
+author:
+  - first_name: Stéphane Liem
+    last_name: Nguyen
+    affiliation: University of Geneva
+    affiliation_url: https://www.unige.ch/dinfo/
+date: 2023-10-12
+categories:
+    - bayesian inference
+output:
+  distill::distill_article:
+    toc: true
+    self_contained: false
+bibliography: references.bib
+nocite: '@*'
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function? In this article, you will discover the relation between Maximum (Log) Likelihood Estimation (MLE), Maximum A Posterior (MAP), and a few commonly used loss functions.
+
+## Maximum (Log) Likelihood Estimation vs. Maximum A Posterior
+
+In Machine Learning, we might intuitively seek the most likely model parameters $\theta$ given a training set $\mathcal{D}$. Mathematically speaking, this translates into maximizing the following:
+
+$$
+p(\theta | \mathcal{D}) = \frac{p(\mathcal{D}|\theta) p(\theta)}{p(\mathcal{D})}
+$$
+or equivalently:
+$$
+\text{posterior} = \frac{\text{likelihood} \cdot \text{prior}}{\text{evidence}}
+$$
+
+**Maximum A Posterior (MAP)**
+
+
+Finding the parameters that maximize the posterior thus leads to the Maximum A Posterior (MAP)
+$$
+\text{argmax}_\theta\,\, p(\theta | \mathcal{D}) = \text{argmax}_\theta\,\, \frac{p(\mathcal{D}|\theta) p(\theta)}{p(\mathcal{D})} = \text{argmax}_\theta\,\, p(\mathcal{D}|\theta) p(\theta)
+$$
+Since the logarithm is monotonic, we can also maximize the log posterior. Maximizing the log posterior has advantages like:
+
+- Changing products into summations
+- Killing any exponential term
+
+**Maximum Likelihood Estimation (MLE)**
+
+
+In contrast, finding the parameters that maximize the likelihood thus leads to the Maximum Likelihood Estimation (MLE)
+
+$$
+\text{argmax}_\theta\,\, p(\mathcal{D}|\theta)
+$$
+
+Similar to MAP we can also maximize the log likelihood.
+
+---
+
+
+# Supervised learning
+
+Applying MAP in a supervised learning setup amounts to the following:
+$$
+\begin{align}
+\text{argmax}_\theta p(\theta|\mathcal{D}) &= \text{argmax}_\theta \log p(\theta|\mathcal{D})\\
+&=\text{argmax}_\theta \log p(\mathcal{D}|\theta) \cdot p(\theta),\,\text{Bayes rule}\\ &= \text{argmax}_\theta \log \prod_i p((x_i, y_i)|\theta)\cdot p(\theta),\,\text{i.i.d}\\
+&= \text{argmax}_\theta \sum_i \log\left(p(y_i|\theta, x_i)p(x_i|\theta)\cdot p(\theta)\right),\,\text{chain rule}
+\\
+&= \text{argmax}_\theta \sum_i \log\left(p(y_i|\theta, x_i)\cdot p(\theta)\right) + \log p(x_i),\,\text{input indep. of parameters}
+\\
+&= \text{argmax}_\theta \color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}+ \log p(\theta)
+\end{align}
+$$
+where the red term is the same as in maximum log likelihood.
+
+## Regression
+
+In regression tasks we might assume the target to be a random variable $y_i$ following a normal distribution centered on the underlying structure $f(x_i)$:
+
+$$
+Y_i = f(X_i) + \epsilon_i,\quad \epsilon_i \sim \mathcal{N}(0, \sigma_\epsilon)
+$$
+where $f$ is a deterministic function.
+
+Equivalently, we would assume that the i.i.d residuals $\epsilon_i$ follow a normal distribution of standard deviation $\sigma_\epsilon$. Such assumption leads to the Mean Squared Error (MSE)!
+
+**Mean Squared Error with or without regularization**
+
+
+Applying MAP with such assumptions and a Gaussian prior on the parameters $p(\theta)$ lead to the MSE with the L2 penalty since the logarithms in the following equation kills the exponential in any normal distribution probability density function formulas:
+
+<aside>Applying MLE with the same assumptions lead to MSE without regularization</aside>
+
+$$\text{argmax}_\theta \color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}+ \log p(\theta)$$
+A Laplacian prior $p(\theta)$ leads to the L1 penalty.
+
+
+## Classification
+
+Since the previous assumption doesn't make any sense in classification tasks, we **should not use** the MSE loss function in classification tasks. What should we use instead?
+
+
+First recall that we want to maximize the following in MLE:
+$$
+\begin{align}
+\color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}
+\end{align}
+$$
+Maximizing it is equivalent to doing the following:
+$$
+\begin{align}
+\text{argmax}_\theta\,\,\color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}&=\text{argmin}_\theta\,\,-\color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}\\
+&=\text{argmin}_\theta\,\,\frac{1}{N}\color{red}{\sum_i \color{black}{-}\log\left(p(y_i|\theta, x_i)\right)}\\
+&=\text{argmin}_\theta\,\,\frac{1}{N}\color{red}{\sum_i \color{black}{-\sum_k \delta_{k, y_i}}\log\left(p(k|\theta, x_i)\right)}\\
+\end{align}
+$$
+Therefore, maximizing the log likelihood is equivalent to minimizing the average cross entropy:
+
+$$
+\begin{align}
+\text{argmin}_\theta\,\,\frac{1}{N} \sum_i \left(-\sum_k p(k|x_i)\log\left(p(k|\theta, x_i)\right)\right)\\
+\end{align}
+$$
+where $\delta_{k, y_i}$ is the true posterior distribution $p(k|x_i)$. In practice, if we use a softmax to get our probability mass function:
+
+$$
+\begin{align}
+p(y_i|x_i, \theta) &= \frac{e^{f_\theta(x_i)_{y_i}}}{\sum_{k=1}^C e^{f_\theta(x_i)_{k}}},\quad y_i \in \{1, \dots, C\}
+\end{align}
+$$
+where $f_\theta(x_i)_{k}$s are called *logits*, we can work with a one-hot encoding vector representing $p(k|x_i)$ for each training sample and logits $f_\theta(x_i)_{k}$s.
+
+<aside>
+Logits are what we obtain right before applying the softmax to get probabilities.
+</aside>
+
+# Unsupervised Learning
+
+
+## Density estimation/Generative Modelling
+
+By applying MLE, we get the empirical cross entropy to minimize
+
+$$
+\begin{align}
+\text{argmax}_\theta \log p(\mathcal{D}|\theta) &= \text{argmax}_\theta \log \prod_i p(x_i|\theta)\\
+ &= \text{argmax}_\theta \sum_i \log p(x_i|\theta)\\
+ &= \text{argmin}_\theta -\frac{1}{N}\sum_i \log p(x_i|\theta)\\
+&= \hat{\mathbb{E}}_{p(x)}\left[-p_\theta(x)\right]
+\end{align}
+$$
+
+where $p(x)$ is the true distribution.
+
+
+
+---
+

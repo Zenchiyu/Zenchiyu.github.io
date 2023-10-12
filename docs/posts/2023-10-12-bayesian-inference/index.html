@@ -86,50 +86,72 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
+<style>
+  div.csl-bib-body { }
+  div.csl-entry {
+    clear: both;
+    }
+  .hanging div.csl-entry {
+    margin-left:2em;
+    text-indent:-2em;
+  }
+  div.csl-left-margin {
+    min-width:2em;
+    float:left;
+  }
+  div.csl-right-inline {
+    margin-left:2em;
+    padding-left:1em;
+  }
+  div.csl-indent {
+    margin-left: 2em;
+  }
+</style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Learning Journey: PCA: Principal Component Analysis (Draft)</title>
+<title>Learning Journey: From MLE or MAP to famous loss functions like MSE or Cross Entropy</title>
 
-<meta property="description" itemprop="description" content="What is Principal Component Analysis ?"/>
+<meta property="description" itemprop="description" content="Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?"/>
 
-<link rel="canonical" href="https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/"/>
+<link rel="canonical" href="https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2023-08-27"/>
-<meta property="article:created" itemprop="dateCreated" content="2023-08-27"/>
+<meta property="article:published" itemprop="datePublished" content="2023-10-12"/>
+<meta property="article:created" itemprop="dateCreated" content="2023-10-12"/>
 <meta name="article:author" content="Stéphane Liem Nguyen"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Learning Journey: PCA: Principal Component Analysis (Draft)"/>
+<meta property="og:title" content="Learning Journey: From MLE or MAP to famous loss functions like MSE or Cross Entropy"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="What is Principal Component Analysis ?"/>
-<meta property="og:url" content="https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/"/>
+<meta property="og:description" content="Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?"/>
+<meta property="og:url" content="https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Learning Journey"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Learning Journey: PCA: Principal Component Analysis (Draft)"/>
-<meta property="twitter:description" content="What is Principal Component Analysis ?"/>
-<meta property="twitter:url" content="https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/"/>
+<meta property="twitter:title" content="Learning Journey: From MLE or MAP to famous loss functions like MSE or Cross Entropy"/>
+<meta property="twitter:description" content="Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?"/>
+<meta property="twitter:url" content="https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Learning Journey: PCA: Principal Component Analysis (Draft)"/>
-<meta name="citation_fulltext_html_url" content="https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/"/>
-<meta name="citation_online_date" content="2023/08/27"/>
-<meta name="citation_publication_date" content="2023/08/27"/>
+<meta name="citation_title" content="Learning Journey: From MLE or MAP to famous loss functions like MSE or Cross Entropy"/>
+<meta name="citation_fulltext_html_url" content="https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/"/>
+<meta name="citation_online_date" content="2023/10/12"/>
+<meta name="citation_publication_date" content="2023/10/12"/>
 <meta name="citation_author" content="Stéphane Liem Nguyen"/>
 <meta name="citation_author_institution" content="University of Geneva"/>
 <!--/radix_placeholder_meta_tags-->
+  
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["PCA: Principal Component Analysis (Draft)"]},{"type":"character","attributes":{},"value":["What is Principal Component Analysis ?"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["first_name","last_name","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Stéphane Liem"]},{"type":"character","attributes":{},"value":["Nguyen"]},{"type":"character","attributes":{},"value":["University of Geneva"]},{"type":"character","attributes":{},"value":["https://www.unige.ch/dinfo/"]}]}]},{"type":"character","attributes":{},"value":["2023-08-27"]},{"type":"character","attributes":{},"value":["unsupervised learning"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/"]},{"type":"character","attributes":{},"value":["https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","output","bibliography","nocite","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["From MLE or MAP to famous loss functions like MSE or Cross Entropy"]},{"type":"character","attributes":{},"value":["Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["first_name","last_name","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Stéphane Liem"]},{"type":"character","attributes":{},"value":["Nguyen"]},{"type":"character","attributes":{},"value":["University of Geneva"]},{"type":"character","attributes":{},"value":["https://www.unige.ch/dinfo/"]}]}]},{"type":"character","attributes":{},"value":["2023-10-12"]},{"type":"character","attributes":{},"value":["bayesian inference"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["references.bib"]},{"type":"character","attributes":{},"value":["@*"]},{"type":"character","attributes":{},"value":["https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/"]},{"type":"character","attributes":{},"value":["https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["pca-principal-component-analysis_files/anchor-4.2.2/anchor.min.js","pca-principal-component-analysis_files/bowser-1.9.3/bowser.min.js","pca-principal-component-analysis_files/distill-2.2.21/template.v2.js","pca-principal-component-analysis_files/header-attrs-2.24/header-attrs.js","pca-principal-component-analysis_files/jquery-3.6.0/jquery-3.6.0.js","pca-principal-component-analysis_files/jquery-3.6.0/jquery-3.6.0.min.js","pca-principal-component-analysis_files/jquery-3.6.0/jquery-3.6.0.min.map","pca-principal-component-analysis_files/popper-2.6.0/popper.min.js","pca-principal-component-analysis_files/tippy-6.2.7/tippy-bundle.umd.min.js","pca-principal-component-analysis_files/tippy-6.2.7/tippy-light-border.css","pca-principal-component-analysis_files/tippy-6.2.7/tippy.css","pca-principal-component-analysis_files/tippy-6.2.7/tippy.umd.min.js","pca-principal-component-analysis_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["bayesian-inference_files/anchor-4.2.2/anchor.min.js","bayesian-inference_files/bowser-1.9.3/bowser.min.js","bayesian-inference_files/distill-2.2.21/template.v2.js","bayesian-inference_files/header-attrs-2.24/header-attrs.js","bayesian-inference_files/jquery-3.6.0/jquery-3.6.0.js","bayesian-inference_files/jquery-3.6.0/jquery-3.6.0.min.js","bayesian-inference_files/jquery-3.6.0/jquery-3.6.0.min.map","bayesian-inference_files/popper-2.6.0/popper.min.js","bayesian-inference_files/tippy-6.2.7/tippy-bundle.umd.min.js","bayesian-inference_files/tippy-6.2.7/tippy-light-border.css","bayesian-inference_files/tippy-6.2.7/tippy.css","bayesian-inference_files/tippy-6.2.7/tippy.umd.min.js","bayesian-inference_files/webcomponents-2.0.0/webcomponents.js","references.bib"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2452,7 +2474,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"PCA: Principal Component Analysis (Draft)","description":"What is Principal Component Analysis ?","authors":[{"author":"Stéphane Liem Nguyen","authorURL":"#","affiliation":"University of Geneva","affiliationURL":"https://www.unige.ch/dinfo/","orcidID":""}],"publishedDate":"2023-08-27T00:00:00.000+02:00","citationText":"Nguyen, 2023"}
+{"title":"From MLE or MAP to famous loss functions like MSE or Cross Entropy","description":"Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?","authors":[{"author":"Stéphane Liem Nguyen","authorURL":"#","affiliation":"University of Geneva","affiliationURL":"https://www.unige.ch/dinfo/","orcidID":""}],"publishedDate":"2023-10-12T00:00:00.000+02:00","citationText":"Nguyen, 2023"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2476,20 +2498,20 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>PCA: Principal Component Analysis (Draft)</h1>
+<h1>From MLE or MAP to famous loss functions like MSE or Cross Entropy</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
-  <a href="../../blog.html#category:unsupervised_learning" class="dt-tag">unsupervised learning</a>
+  <a href="../../blog.html#category:bayesian_inference" class="dt-tag">bayesian inference</a>
 </div>
 <!--/radix_placeholder_categories-->
-<p><p>What is Principal Component Analysis ?</p></p>
+<p><p>Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function?</p></p>
 </div>
 
 <div class="d-byline">
   
   true
   
-<br/>2023-08-27
+<br/>2023-10-12
 </div>
 
 <div class="d-article">
@@ -2497,67 +2519,136 @@ d-appendix d-footnote-list a.footnote-backlink {
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#introduction" id="toc-introduction">Introduction</a>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#maximum-log-likelihood-estimation-vs.-maximum-a-posterior" id="toc-maximum-log-likelihood-estimation-vs.-maximum-a-posterior">Maximum (Log) Likelihood Estimation vs. Maximum A Posterior</a></li>
+<li><a href="#supervised-learning" id="toc-supervised-learning">Supervised learning</a>
 <ul>
-<li><a href="#unsupervised-learning" id="toc-unsupervised-learning">Unsupervised Learning</a></li>
-<li><a href="#dimensionality-reduction" id="toc-dimensionality-reduction">Dimensionality reduction</a></li>
-<li><a href="#eigenvalue-decomposition" id="toc-eigenvalue-decomposition">Eigenvalue Decomposition</a></li>
+<li><a href="#regression" id="toc-regression">Regression</a></li>
+<li><a href="#classification" id="toc-classification">Classification</a></li>
 </ul></li>
-<li><a href="#principal-component-analysis" id="toc-principal-component-analysis">Principal Component Analysis</a>
+<li><a href="#unsupervised-learning" id="toc-unsupervised-learning">Unsupervised Learning</a>
 <ul>
-<li><a href="#assumptions" id="toc-assumptions">Assumptions</a></li>
-<li><a href="#intuition" id="toc-intuition">Intuition</a></li>
-<li><a href="#relation-with-mathematical-formulas" id="toc-relation-with-mathematical-formulas">Relation with mathematical formulas</a></li>
-<li><a href="#eckart-young-theorem-and-how-many-dimensions-to-keep-based-on-the-eigenspectrum" id="toc-eckart-young-theorem-and-how-many-dimensions-to-keep-based-on-the-eigenspectrum">Eckart-Young Theorem and how many dimensions to keep based on the eigenspectrum ?</a></li>
-<li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
+<li><a href="#density-estimationgenerative-modelling" id="toc-density-estimationgenerative-modelling">Density estimation/Generative Modelling</a></li>
 </ul></li>
 </ul>
 </nav>
 </div>
-<h1 id="introduction">Introduction</h1>
-<p>Principal Component Analysis for short PCA, is an <em>unsupervised learning</em> method that can be used, depending on specific circumstances, as a <em>dimensionality reduction technique</em>. However, PCA is an exact decomposition method. PCA is the <em>eigenvalue decomposition</em> (EVD) of the <em>data covariance matrix</em>.</p>
-<p>In this article, you will see an explanation of what PCA is, intuitively and slightly formalized using some linear algebra.</p>
-<h2 id="unsupervised-learning">Unsupervised Learning</h2>
-<p>The field of Machine Learning includes a sub-field called unsupervised learning.</p>
-<p>Unsupervised learning methods apply to non-labeled data, e.g. images of cats and dogs deprived of class belonging information. These methods are useable for clustering, density estimation, visualization and dimensionality reduction.</p>
-<h2 id="dimensionality-reduction">Dimensionality reduction</h2>
-<p>Machine Learning methods can suffer from large dimensions. For instance, images can be composed of millions of pixels.</p>
-<p>The <em>large number of dimensions</em> not only can be a burden in terms of computational resources, but intuition from 2, 3 or maybe up to 4 dimensions is hard to extend to thousands of dimensions.</p>
-<p>A keyword often used in Machine Learning is the <a href="https://en.wikipedia.org/wiki/Curse_of_dimensionality"><em>Curse of Dimensionality</em></a>, which would require further explanation via future articles.</p>
-<!--- to talk about rejection sampling in the future too--->
-<p>Therefore, shrinking that number of dimensions requires dimensionality reduction techniques. However, loss of information can occur! You can think of it as compressing images and decompressing them. Can you retrieve the original image from a compressed one without any loss? Lossy and lossless compression techniques exist with different compression ratios.</p>
-<p>Because loss of information can occur, we need to ensure that the dimensionality reduction technique retains <em>useful</em> information for a downstream task, which could be classification.</p>
-<aside>
-Usefulness needs a proper definition
-</aside>
-<p>Because classification is a supervised learning task in which we have labeled data, dimensionality reduction techniques are therefore not fully reserved for unsupervised learning methods.</p>
-<!--- TODO: create some dataset, plot a 2D graph and project data onto one axis to show the loss of information --->
-<h2 id="eigenvalue-decomposition">Eigenvalue Decomposition</h2>
-<h1 id="principal-component-analysis">Principal Component Analysis</h1>
-<h2 id="assumptions">Assumptions</h2>
-<p>PCA assumes the following:</p>
+<h2 id="introduction">Introduction</h2>
+<p>Have you ever wondered why do we use the Mean Squared Error or Cross Entropy as loss function? In this article, you will discover the relation between Maximum (Log) Likelihood Estimation (MLE), Maximum A Posterior (MAP), and a few commonly used loss functions.</p>
+<h2 id="maximum-log-likelihood-estimation-vs.-maximum-a-posterior">Maximum (Log) Likelihood Estimation vs. Maximum A Posterior</h2>
+<p>In Machine Learning, we might intuitively seek the most likely model parameters <span class="math inline">\(\theta\)</span> given a training set <span class="math inline">\(\mathcal{D}\)</span>. Mathematically speaking, this translates into maximizing the following:</p>
+<p><span class="math display">\[
+p(\theta | \mathcal{D}) = \frac{p(\mathcal{D}|\theta) p(\theta)}{p(\mathcal{D})}
+\]</span>
+or equivalently:
+<span class="math display">\[
+\text{posterior} = \frac{\text{likelihood} \cdot \text{prior}}{\text{evidence}}
+\]</span></p>
+<p><strong>Maximum A Posterior (MAP)</strong></p>
+<p>Finding the parameters that maximize the posterior thus leads to the Maximum A Posterior (MAP)
+<span class="math display">\[
+\text{argmax}_\theta\,\, p(\theta | \mathcal{D}) = \text{argmax}_\theta\,\, \frac{p(\mathcal{D}|\theta) p(\theta)}{p(\mathcal{D})} = \text{argmax}_\theta\,\, p(\mathcal{D}|\theta) p(\theta)
+\]</span>
+Since the logarithm is monotonic, we can also maximize the log posterior. Maximizing the log posterior has advantages like:</p>
 <ul>
-<li>continuous features</li>
-<li>i.i.d examples coming from a normal distribution so not a multi-modal distribution.</li>
-<li>unlabeled data</li>
+<li>Changing products into summations</li>
+<li>Killing any exponential term</li>
 </ul>
-<p>The normal distribution assumption comes from the fact that PCA computes a mean vector and data covariance matrix from the dataset.</p>
-<p>Although PCA can be applied without the assumptions, it’s not recommended. We’ll go back to these assumptions later on.</p>
-<!--- normalizing input features can help PCA --->
-<h2 id="intuition">Intuition</h2>
-<h2 id="relation-with-mathematical-formulas">Relation with mathematical formulas</h2>
-<h2 id="eckart-young-theorem-and-how-many-dimensions-to-keep-based-on-the-eigenspectrum">Eckart-Young Theorem and how many dimensions to keep based on the eigenspectrum ?</h2>
-<h2 id="conclusion">Conclusion</h2>
+<p><strong>Maximum Likelihood Estimation (MLE)</strong></p>
+<p>In contrast, finding the parameters that maximize the likelihood thus leads to the Maximum Likelihood Estimation (MLE)</p>
+<p><span class="math display">\[
+\text{argmax}_\theta\,\, p(\mathcal{D}|\theta)
+\]</span></p>
+<p>Similar to MAP we can also maximize the log likelihood.</p>
+<hr />
+<h1 id="supervised-learning">Supervised learning</h1>
+<p>Applying MAP in a supervised learning setup amounts to the following:
+<span class="math display">\[
+\begin{align}
+\text{argmax}_\theta p(\theta|\mathcal{D}) &amp;= \text{argmax}_\theta \log p(\theta|\mathcal{D})\\
+&amp;=\text{argmax}_\theta \log p(\mathcal{D}|\theta) \cdot p(\theta),\,\text{Bayes rule}\\ &amp;= \text{argmax}_\theta \log \prod_i p((x_i, y_i)|\theta)\cdot p(\theta),\,\text{i.i.d}\\
+&amp;= \text{argmax}_\theta \sum_i \log\left(p(y_i|\theta, x_i)p(x_i|\theta)\cdot p(\theta)\right),\,\text{chain rule}
+\\
+&amp;= \text{argmax}_\theta \sum_i \log\left(p(y_i|\theta, x_i)\cdot p(\theta)\right) + \log p(x_i),\,\text{input indep. of parameters}
+\\
+&amp;= \text{argmax}_\theta \color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}+ \log p(\theta)
+\end{align}
+\]</span>
+where the red term is the same as in maximum log likelihood.</p>
+<h2 id="regression">Regression</h2>
+<p>In regression tasks we might assume the target to be a random variable <span class="math inline">\(y_i\)</span> following a normal distribution centered on the underlying structure <span class="math inline">\(f(x_i)\)</span>:</p>
+<p><span class="math display">\[
+Y_i = f(X_i) + \epsilon_i,\quad \epsilon_i \sim \mathcal{N}(0, \sigma_\epsilon)
+\]</span>
+where <span class="math inline">\(f\)</span> is a deterministic function.</p>
+<p>Equivalently, we would assume that the i.i.d residuals <span class="math inline">\(\epsilon_i\)</span> follow a normal distribution of standard deviation <span class="math inline">\(\sigma_\epsilon\)</span>. Such assumption leads to the Mean Squared Error (MSE)!</p>
+<p><strong>Mean Squared Error with or without regularization</strong></p>
+<p>Applying MAP with such assumptions and a Gaussian prior on the parameters <span class="math inline">\(p(\theta)\)</span> lead to the MSE with the L2 penalty since the logarithms in the following equation kills the exponential in any normal distribution probability density function formulas:</p>
+<aside>
+Applying MLE with the same assumptions lead to MSE without regularization
+</aside>
+<p><span class="math display">\[\text{argmax}_\theta \color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}+ \log p(\theta)\]</span>
+A Laplacian prior <span class="math inline">\(p(\theta)\)</span> leads to the L1 penalty.</p>
+<h2 id="classification">Classification</h2>
+<p>Since the previous assumption doesn’t make any sense in classification tasks, we <strong>should not use</strong> the MSE loss function in classification tasks. What should we use instead?</p>
+<p>First recall that we want to maximize the following in MLE:
+<span class="math display">\[
+\begin{align}
+\color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}
+\end{align}
+\]</span>
+Maximizing it is equivalent to doing the following:
+<span class="math display">\[
+\begin{align}
+\text{argmax}_\theta\,\,\color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}&amp;=\text{argmin}_\theta\,\,-\color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}\\
+&amp;=\text{argmin}_\theta\,\,\frac{1}{N}\color{red}{\sum_i \color{black}{-}\log\left(p(y_i|\theta, x_i)\right)}\\
+&amp;=\text{argmin}_\theta\,\,\frac{1}{N}\color{red}{\sum_i \color{black}{-\sum_k \delta_{k, y_i}}\log\left(p(k|\theta, x_i)\right)}\\
+\end{align}
+\]</span>
+Therefore, maximizing the log likelihood is equivalent to minimizing the average cross entropy:</p>
+<p><span class="math display">\[
+\begin{align}
+\text{argmin}_\theta\,\,\frac{1}{N} \sum_i \left(-\sum_k p(k|x_i)\log\left(p(k|\theta, x_i)\right)\right)\\
+\end{align}
+\]</span>
+where <span class="math inline">\(\delta_{k, y_i}\)</span> is the true posterior distribution <span class="math inline">\(p(k|x_i)\)</span>. In practice, if we use a softmax to get our probability mass function:</p>
+<p><span class="math display">\[
+\begin{align}
+p(y_i|x_i, \theta) &amp;= \frac{e^{f_\theta(x_i)_{y_i}}}{\sum_{k=1}^C e^{f_\theta(x_i)_{k}}},\quad y_i \in \{1, \dots, C\}
+\end{align}
+\]</span>
+where <span class="math inline">\(f_\theta(x_i)_{k}\)</span>s are called <em>logits</em>, we can work with a one-hot encoding vector representing <span class="math inline">\(p(k|x_i)\)</span> for each training sample and logits <span class="math inline">\(f_\theta(x_i)_{k}\)</span>s.</p>
+<aside>
+Logits are what we obtain right before applying the softmax to get probabilities.
+</aside>
+<h1 id="unsupervised-learning">Unsupervised Learning</h1>
+<h2 id="density-estimationgenerative-modelling">Density estimation/Generative Modelling</h2>
+<p>By applying MLE, we get the empirical cross entropy to minimize</p>
+<p><span class="math display">\[
+\begin{align}
+\text{argmax}_\theta \log p(\mathcal{D}|\theta) &amp;= \text{argmax}_\theta \log \prod_i p(x_i|\theta)\\
+&amp;= \text{argmax}_\theta \sum_i \log p(x_i|\theta)\\
+&amp;= \text{argmin}_\theta -\frac{1}{N}\sum_i \log p(x_i|\theta)\\
+&amp;= \hat{\mathbb{E}}_{p(x)}\left[-p_\theta(x)\right]
+\end{align}
+\]</span></p>
+<p>where <span class="math inline">\(p(x)\)</span> is the true distribution.</p>
+<hr />
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-fleuret_dlc_course" class="csl-entry" role="listitem">
+Fleuret, François. 2023. <em><a href="https://fleuret.org/dlc/">Deep Learning Course</a></em>. URL <a href="https://fleuret.org/dlc/" class="uri">https://fleuret.org/dlc/</a>.
+</div>
+</div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=PCA%3A%20Principal%20Component%20Analysis%20%28Draft%29&amp;url=https%3A%2F%2Fzenchiyu.github.io%2Fposts%2F2023-08-27-pca-principal-component-analysis%2F" aria-label="share on twitter">
+      <a href="https://twitter.com/share?text=From%20MLE%20or%20MAP%20to%20famous%20loss%20functions%20like%20MSE%20or%20Cross%20Entropy&amp;url=https%3A%2F%2Fzenchiyu.github.io%2Fposts%2F2023-10-12-bayesian-inference%2F" aria-label="share on twitter">
         <i class="fab fa-twitter" aria-hidden="true"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fzenchiyu.github.io%2Fposts%2F2023-08-27-pca-principal-component-analysis%2F&amp;title=PCA%3A%20Principal%20Component%20Analysis%20%28Draft%29" aria-label="share on linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fzenchiyu.github.io%2Fposts%2F2023-10-12-bayesian-inference%2F&amp;title=From%20MLE%20or%20MAP%20to%20famous%20loss%20functions%20like%20MSE%20or%20Cross%20Entropy" aria-label="share on linkedin">
         <i class="fab fa-linkedin" aria-hidden="true"></i>
       </a>
     </span>
@@ -2569,19 +2660,30 @@ Usefulness needs a proper definition
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
+  <h3 id="references">References</h3>
+  <div id="references-listing"></div>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Nguyen (2023, Aug. 27). Learning Journey: PCA: Principal Component Analysis (Draft). Retrieved from https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/</pre>
+  <pre class="citation-appendix short">Nguyen (2023, Oct. 12). Learning Journey: From MLE or MAP to famous loss functions like MSE or Cross Entropy. Retrieved from https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/</pre>
   <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{nguyen2023pca:,
+  <pre class="citation-appendix long">@misc{nguyen2023from,
   author = {Nguyen, Stéphane Liem},
-  title = {Learning Journey: PCA: Principal Component Analysis (Draft)},
-  url = {https://zenchiyu.github.io/posts/2023-08-27-pca-principal-component-analysis/},
+  title = {Learning Journey: From MLE or MAP to famous loss functions like MSE or Cross Entropy},
+  url = {https://zenchiyu.github.io/posts/2023-10-12-bayesian-inference/},
   year = {2023}
 }</pre>
 </div>

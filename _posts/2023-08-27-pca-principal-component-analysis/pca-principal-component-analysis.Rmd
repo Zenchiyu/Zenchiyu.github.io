@@ -62,6 +62,18 @@ Because classification is a supervised learning task in which we have labeled da
 
 ## Assumptions
 
+PCA assumes the following:
+
+- continuous features
+- i.i.d examples coming from a normal distribution so not a multi-modal distribution.
+- unlabeled data
+
+The normal distribution assumption comes from the fact that PCA computes a mean vector and data covariance matrix from the dataset.
+
+Although PCA can be applied without the assumptions, it's not recommended. We'll go back to these assumptions later on.
+
+<!--- normalizing input features can help PCA --->
+
 ## Intuition
 
 ## Relation with mathematical formulas
