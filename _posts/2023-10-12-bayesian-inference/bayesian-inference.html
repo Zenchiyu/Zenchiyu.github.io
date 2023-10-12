@@ -1621,7 +1621,7 @@ Applying MLE with the same assumptions lead to MSE without regularization
 A Laplacian prior <span class="math inline">\(p(\theta)\)</span> leads to the L1 penalty.</p>
 <h2 id="classification">Classification</h2>
 <p>Since the previous assumption doesn’t make any sense in classification tasks, we <strong>should not use</strong> the MSE loss function in classification tasks. What should we use instead?</p>
-<p>First recall that we want to maximize the following in MLE:
+<p>To begin with, keep in mind that we want to maximize the following in MLE:
 <span class="math display">\[
 \begin{align}
 \color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}

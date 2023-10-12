@@ -108,7 +108,7 @@ A Laplacian prior $p(\theta)$ leads to the L1 penalty.
 Since the previous assumption doesn't make any sense in classification tasks, we **should not use** the MSE loss function in classification tasks. What should we use instead?
 
 
-First recall that we want to maximize the following in MLE:
+To begin with, keep in mind that we want to maximize the following in MLE:
 $$
 \begin{align}
 \color{red}{\sum_i \log\left(p(y_i|\theta, x_i)\right)}
