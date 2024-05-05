@@ -38,6 +38,30 @@ University Email: <a href="mailto:stephane.nguyen@etu.unige.ch">first.last@etu.u
 knitr::include_graphics("static/pdfs/academic_cv.pdf") 
 ```
 
+<!--- -------------------------------------- --->
+**Selected Projects**
+
+<table>
+<tr>
+<td>
+**Advanced Formal Tools**</td>&emsp;<td>PRISM case study with an investor in a simplified market (<a href="https://github.com/Zenchiyu/advanced-formal-tools" target="_blank" rel="noopener noreferrer">Github</a>)</td>
+
+<tr>
+<td>
+**Bachelor Project**</td>&emsp;<td>Implementation of learning methods inspired by reinforcement learning for symmetric rendezvous problem on the line (<a href="https://github.com/Zenchiyu/bachelor-project" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://colab.research.google.com/drive/1PQ_DDKtybPYOu60aEphWkZo64BNJOjAH#scrollTo=3oHNhsAj_vgA" target="_blank" rel="noopener noreferrer"> google colab</a>).</td>
+
+<tr>
+<td>
+**Informatics Project**</td>&emsp;<td>Backend development: Implementation of REST services with Java, as well as PostgreSQL databases with Docker containers (<a href="https://github.com/Zenchiyu/pinfo-moviet" target="_blank" rel="noopener noreferrer">Github</a>)</td>
+
+<!--- https://github.com/Zenchiyu/gym_tic_tac_toe --->
+
+<tr>
+<td>
+**Computer Informatics Applications**</td>&emsp;<td>Automatization of several time-consuming manual procedures for climate simulations: e.g
+separating ocean from land using simple altitude thresholding (<a href="https://gitlab.com/mit_gcm/project" target="_blank" rel="noopener noreferrer">Gitlab</a>)</td>
+</tr>
+</table>
 ---
 
 
