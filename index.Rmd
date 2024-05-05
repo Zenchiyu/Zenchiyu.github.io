@@ -1,9 +1,7 @@
 ---
-title: "Learning Journey"
+title: "Stéphane Liem Nguyen"
 description: |
-  Welcome to my website, curious fellow ! Are you ready to join me on my journey ?
-  
-  I am Stéphane and this is my learning journey.
+  Welcome to my website! I am Stéphane and this is my learning journey.
    
 site: distill::distill_website
 ---
@@ -19,27 +17,24 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-### Motto of this website
-
-<span style="color:gray">*Sharing or teaching what I learn will not only help with my bad memory but also help you.*</span>
-   
-I hope my blog posts will help you, either by refreshing your memory or making you discover something new.
+```{css}
+d-title {
+    display: none;
+  }
+```
 
 ---
 
-### About Me
 
 <!---  <img src="images/profile.jpeg" alt="Profile Picture" class="profile-picture"> --->
 
 <table>
 <tr>
 <td>
-<img align="left" src="images/profile-circle.png" width="200">
+<img align="left" src="static/images/profile-circle.png" width="200">
 </td>
 <td>
-My academic interests revolve around Machine Learning, more specifically Reinforcement Learning.
-
-More generally, I'm interested in anything related to decision-making.
+Hello! My academic interests revolve around World Models & Decision-making :)
 </td>
 </tr>
 <tr>
@@ -48,7 +43,7 @@ More generally, I'm interested in anything related to decision-making.
 **Stéphane Liem Nguyen**<br>
 CS student at University of Geneva<br>
 <!---Email--->
-  <a href="mailto:stephane13ste@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a>&nbsp;
+  <a href="mailto:stephaneliem.nguyen@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a>&nbsp;
 <!---Linkedin--->
   <a href="https://www.linkedin.com/in/stéphane-liem-nguyen/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>&nbsp;
 <!---GitHub--->
@@ -64,27 +59,9 @@ University Email: <a href="mailto:stephane.nguyen@etu.unige.ch">first.last@etu.u
 </table>
 
 <!--- -------------------------------------- --->
-**Selected Projects**
+<!--- https://stackoverflow.com/questions/43840742/how-to-embed-local-video-in-r-markdown --->
+<video controls>
+  <source src="static/videos/carousel1.mp4" type="video/mp4">
+</video>
 
-<table>
-<tr>
-<td>
-**Advanced Formal Tools**</td>&emsp;<td>PRISM case study with an investor in a simplified market (<a href="https://github.com/Zenchiyu/advanced-formal-tools" target="_blank" rel="noopener noreferrer">Github</a>)</td>
-
-<tr>
-<td>
-**Bachelor Project**</td>&emsp;<td>Implementation of learning methods inspired by reinforcement learning for symmetric rendezvous problem on the line (<a href="https://github.com/Zenchiyu/bachelor-project" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://colab.research.google.com/drive/1PQ_DDKtybPYOu60aEphWkZo64BNJOjAH#scrollTo=3oHNhsAj_vgA" target="_blank" rel="noopener noreferrer"> google colab</a>).</td>
-
-<tr>
-<td>
-**Informatics Project**</td>&emsp;<td>Backend development: Implementation of REST services with Java, as well as PostgreSQL databases with Docker containers (<a href="https://github.com/Zenchiyu/pinfo-moviet" target="_blank" rel="noopener noreferrer">Github</a>)</td>
-
-<!--- https://github.com/Zenchiyu/gym_tic_tac_toe --->
-
-<tr>
-<td>
-**Computer Informatics Applications**</td>&emsp;<td>Automatization of several time-consuming manual procedures for climate simulations: e.g
-separating ocean from land using simple altitude thresholding (<a href="https://gitlab.com/mit_gcm/project" target="_blank" rel="noopener noreferrer">Gitlab</a>)</td>
-</tr>
-</table>
 ---
