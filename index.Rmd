@@ -60,8 +60,8 @@ University Email: <a href="mailto:stephane.nguyen@etu.unige.ch">first.last@etu.u
 
 <!--- -------------------------------------- --->
 <!--- https://stackoverflow.com/questions/43840742/how-to-embed-local-video-in-r-markdown --->
-<video controls>
+<!--- <video controls>
   <source src="static/videos/carousel1.mp4" type="video/mp4">
-</video>
+</video> --->
 
 ---
