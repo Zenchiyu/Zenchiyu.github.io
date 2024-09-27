@@ -17,7 +17,7 @@ Hello! My academic interests revolve around World Models & Decision-making :)
 <td>
 <p class="small">
 **Stéphane Liem Nguyen**<br>
-CS student at University of Geneva<br>
+PhD student at University of Geneva<br>
 <!---Email--->
   <a href="mailto:stephane13ste@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a>&nbsp;
 <!---Linkedin--->
@@ -29,7 +29,7 @@ CS student at University of Geneva<br>
 </p>
 </td>
 <td>
-University Email: <a href="mailto:stephane.nguyen@etu.unige.ch">first.last@etu.unige.ch</a>
+University Email: <a href="mailto:stephane.nguyen@unige.ch">first.last@unige.ch</a>
 </td>
 </tr>
 </table>
