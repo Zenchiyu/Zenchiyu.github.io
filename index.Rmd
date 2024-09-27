@@ -41,7 +41,7 @@ Hello! My academic interests revolve around World Models & Decision-making :)
 <td>
 <p class="small">
 **Stéphane Liem Nguyen**<br>
-PhD student at University of Geneva<br>
+PhD student in Machine Learning at University of Geneva<br>
 <!---Email--->
   <a href="mailto:stephaneliem.nguyen@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i></a>&nbsp;
 <!---Linkedin--->
