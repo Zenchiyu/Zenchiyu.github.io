@@ -4,17 +4,17 @@
       "path": "about.html",
       "title": "About",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n\r\nHello! My academic interests revolve around World Models & Decision-making :)\r\n\r\n\r\n\r\nStéphane Liem Nguyen\r\nCS student at University of Geneva \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n\r\n\r\nUniversity Email: first.last@etu.unige.ch\r\n\r\n\r\n\r\n\r\nSelected Projects\r\n\r\nAdvanced Formal Tools\r\n\r\n \r\n\r\nPRISM case study with an investor in a simplified market (Github)\r\n\r\n\r\nBachelor Project\r\n\r\n \r\n\r\nImplementation of learning methods inspired by reinforcement learning for symmetric rendezvous problem on the line (Github,  google colab).\r\n\r\n\r\nInformatics Project\r\n\r\n \r\n\r\nBackend development: Implementation of REST services with Java, as well as PostgreSQL databases with Docker containers (Github)\r\n\r\n\r\n\r\nComputer Informatics Applications\r\n\r\n \r\n\r\nAutomatization of several time-consuming manual procedures for climate simulations: e.g\r\nseparating ocean from land using simple altitude thresholding (Gitlab)\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-05-06T20:34:29+02:00"
+      "contents": "\n\n\n\n\nHello! My academic interests revolve around World Models & Decision-making :)\n\n\n\nStéphane Liem Nguyen\nCS student at University of Geneva \n\n \n\n \n\n \n\n\n\nUniversity Email: first.last@etu.unige.ch\n\n\n\n\nSelected Projects\n\nAdvanced Formal Tools\n\n \n\nPRISM case study with an investor in a simplified market (Github)\n\n\nBachelor Project\n\n \n\nImplementation of learning methods inspired by reinforcement learning for symmetric rendezvous problem on the line (Github,  google colab).\n\n\nInformatics Project\n\n \n\nBackend development: Implementation of REST services with Java, as well as PostgreSQL databases with Docker containers (Github)\n\n\n\nComputer Informatics Applications\n\n \n\nAutomatization of several time-consuming manual procedures for climate simulations: e.g\nseparating ocean from land using simple altitude thresholding (Gitlab)\n\n\n\n\n",
+      "last_modified": "2024-09-27T19:36:02+02:00"
     },
     {
       "path": "index.html",
       "title": "Stéphane Liem Nguyen",
       "description": "Welcome to my website! I am Stéphane and this is my learning journey.\n \n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n\r\n\r\nHello! My academic interests revolve around World Models & Decision-making :)\r\n\r\n\r\n\r\nStéphane Liem Nguyen\r\nCS student at University of Geneva \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n\r\n\r\nUniversity Email: first.last@etu.unige.ch\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-05-06T20:34:30+02:00"
+      "contents": "\n\n\n\n\n\nHello! My academic interests revolve around World Models & Decision-making :)\n\n\n\nStéphane Liem Nguyen\nPhD student at University of Geneva \n\n \n\n \n\n \n\n\n\nUniversity Email: first.last@unige.ch\n\n\n\n\n",
+      "last_modified": "2024-09-27T19:36:03+02:00"
     }
   ],
-  "collections": ["posts/posts.json"]
+  "collections": []
 }
