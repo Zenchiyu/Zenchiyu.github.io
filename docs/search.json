@@ -5,7 +5,7 @@
       "title": "About",
       "author": [],
       "contents": "\n\n\n\n\nHello! My academic interests revolve around World Models & Decision-making :)\n\n\n\nStéphane Liem Nguyen\nPhD student in Machine Learning at University of Geneva \n\n \n\n \n\n \n\n\n\nUniversity Email: first.last@unige.ch\n\n\n\n\nSelected Projects\n\nAdvanced Formal Tools\n\n \n\nPRISM case study with an investor in a simplified market (Github)\n\n\nBachelor Project\n\n \n\nImplementation of learning methods inspired by reinforcement learning for symmetric rendezvous problem on the line (Github,  google colab).\n\n\nInformatics Project\n\n \n\nBackend development: Implementation of REST services with Java, as well as PostgreSQL databases with Docker containers (Github)\n\n\n\nComputer Informatics Applications\n\n \n\nAutomatization of several time-consuming manual procedures for climate simulations: e.g\nseparating ocean from land using simple altitude thresholding (Gitlab)\n\n\n\n\n",
-      "last_modified": "2024-09-27T19:46:26+02:00"
+      "last_modified": "2024-11-20T14:34:31+01:00"
     },
     {
       "path": "index.html",
@@ -13,7 +13,7 @@
       "description": "Welcome to my website! I am Stéphane and this is my learning journey.\n \n",
       "author": [],
       "contents": "\n\n\n\n\n\nHello! My academic interests revolve around World Models & Decision-making :)\n\n\n\nStéphane Liem Nguyen\nPhD student in Machine Learning at University of Geneva \n\n \n\n \n\n \n\n\n\nUniversity Email: first.last@unige.ch\n\n\n\n\n",
-      "last_modified": "2024-09-27T19:46:27+02:00"
+      "last_modified": "2024-11-20T14:34:32+01:00"
     }
   ],
   "collections": []
